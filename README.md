@@ -1,18 +1,26 @@
-## Mapping with Leaflet.js
+# Real-Time Tracking App
 
-This application utilizes [Leaflet.js](https://leafletjs.com/) for rendering interactive maps. Leaflet is a powerful JavaScript library that allows you to create dynamic maps easily. It supports various mapping features, including markers, popups, and custom tile layers.
+## Description
 
-### Key Features of Leaflet.js Used in This Application
+The Real-Time Tracking App is a web application that allows users to share their geographical location in real time. Utilizing **Socket.io** for real-time communication and **Leaflet.js** for interactive maps, this application provides a dynamic interface to visualize user locations on a map.
 
-- **Interactive Map Display:** Users can view their location on a customizable map.
-- **Real-time Location Updates:** As users share their locations, the map updates in real-time to reflect these changes.
-- **Markers:** Each user's location is represented with a marker on the map, making it easy to identify their positions.
-- **Custom Tile Layer:** The application uses OpenStreetMap tile layers for a clean and informative map interface.
+## Features
 
-### Getting Started with Leaflet.js
+- Real-time location tracking of multiple users.
+- Interactive map powered by **Leaflet.js**.
+- User-friendly interface for seamless tracking.
+- Automatically updates user locations on the map.
 
-To use Leaflet.js in this application, you don't need to install it manually. It is included in the project via a CDN in the HTML files. Simply include the following lines in your HTML to utilize Leaflet features:
+## Technologies Used
 
-```html
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+- **Node.js**: JavaScript runtime for building server-side applications.
+- **Express.js**: Web framework for Node.js to build web applications.
+- **Socket.io**: Library for real-time web applications that enables bi-directional communication between web clients and servers.
+- **EJS**: Embedded JavaScript templating for rendering views.
+- **Leaflet.js**: Open-source JavaScript library for mobile-friendly interactive maps.
+
+## Live Demo
+
+You can access the live application [here](https://location-tracker-swek.onrender.com).
+
+
